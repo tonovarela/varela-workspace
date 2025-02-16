@@ -19,6 +19,9 @@ export class VarelaSidemenuComponent {
   isAuthenticated = input(false);
 
   titleColor = input<TitleColor>(TitleColor.purple);
+  title = input<string>('Varela');  
+  subtitle = input<string>('Corp');
+  
   onSignOut = output();
   onSignIn = output();
 
