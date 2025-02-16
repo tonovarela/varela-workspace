@@ -3,7 +3,7 @@
   <div class="relative border-b border-white/20">
     <a class="flex items-center gap-4 py-6 px-8" href="#/">
       <h6 class="block font-bold space-x-1 text-2xl antialiased tracking-normal font-sans leading-relaxed text-white">
-        <span [classList]="[titleColor()]"  >Varela </span>
+        <span class="text-purple-500" >Varela </span>
         <span class="font-thin">Corp</span>
       
       </h6>
@@ -106,6 +106,7 @@
       <li>
 
         <button 
+        data-logout
         (click)="onSignOut.emit()"
           class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize"
           type="button">
@@ -124,6 +125,7 @@
       <li>
 
         <button
+        data-login
         (click)="onSignIn.emit()"
           class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize"
           type="button">

@@ -11,7 +11,7 @@
     "varela-sidemenu:build": "ng build varela-sidemenu ",
     "varela-sidemenu:lint": "ng lint varela-sidemenu ",
     "varela-sidemenu:test": "ng test varela-sidemenu  --no-watch --no-progress --browsers=ChromeHeadless",
-    "varela-sidemenu:publish": "npm run varela-sidemenu:test && npm run varela-sidemenu:build &&  npm publish dist/varela-sidemenu"
+    "varela-sidemenu:publish": "npm run varela-sidemenu:test && npm run varela-sidemenu:build &&  npm publish dist/varela-sidemenu/"
   },
   "private": true,
   "dependencies": {

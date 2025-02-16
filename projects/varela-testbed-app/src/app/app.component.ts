@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import  {VarelaSidemenuComponent,TitleColor} from  'varela-sidemenu'
+import  {VarelaSidemenuComponent} from  'varela-sidemenu'
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,5 @@ export class AppComponent {
 
   isAuthenticated = signal(false);
 
-  TitleColor = TitleColor
+  //TitleColor = TitleColor
 }

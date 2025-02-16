@@ -1,3 +1,3 @@
-Libreria en Angular para crear u,n sideMenu
+Libreria en Angular para crear un sideMenu
 
 # SideMenu
